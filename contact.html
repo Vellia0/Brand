@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Vellia</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: #fff;
+        }
+        .container {
+            max-width: 700px;
+            margin: 50px auto;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(10px);
+        }
+        h1 {
+            text-align: center;
+            color: #fff;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        ul li {
+            margin: 20px 0;
+            display: flex;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 15px;
+            border-radius: 8px;
+            transition: transform 0.2s, background 0.2s;
+        }
+        ul li:hover {
+            transform: translateY(-5px);
+            background: rgba(255, 255, 255, 0.3);
+        }
+        ul li a {
+            text-decoration: none;
+            color: #aad8ff;
+            margin-left: 15px;
+            font-size: 18px;
+            font-weight: bold;
+            transition: color 0.2s;
+        }
+        ul li a:hover {
+            color: #fff;
+        }
+        .icon {
+            width: 32px;
+            height: 32px;
+            flex-shrink: 0;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+                margin: 20px;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+            ul li a {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Contact</h1>
+        <ul>
+            <li>
+                <img src="phone-icon.jpeg" alt="Phone" class="icon">
+                <a href="tel:+962791234567" style="margin-left: 15px;">Phone: +962781362972</a>
+            </li>
+            <li>
+                <img src="instagram-icon" alt="Instagram" class="icon">
+                <a href="https://www.instagram.com/vellia" target="_blank">Instagram</a>
+            </li>
+            <li>
+                <img src="facebook-icon.png" alt="Facebook" class="icon">
+                <a href="https://www.facebook.com/vellia" target="_blank">Facebook</a>
+            </li>
+            <li>
+                <img src="twitter-icon.png" alt="Twitter" class="icon">
+                <a href="https://www.twitter.com/vellia" target="_blank">Twitter</a>
+            </li>
+            <li>
+                <img src="youtube-icon.png" alt="YouTube" class="icon">
+                <a href="https://www.youtube.com/vellia" target="_blank">YouTube</a>
+            </li>
+            <li>
+                <img src="snapchat-icon.webp" alt="Snapchat" class="icon">
+                <a href="https://www.snapchat.com/add/vellia" target="_blank">Snapchat</a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
