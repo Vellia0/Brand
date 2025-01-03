@@ -15,14 +15,14 @@
   },
   {
     "id": 2,
-    "img": "2.png",
+    "img": "2.1.jpg",
     "name": "تقويم مكتبي خشبي",
     "price": 3,
     "catetory":"electronics"
   },
   {
     "id": 3,
-    "img": "3.png",
+    "img": "3.1.png",
     "name": "شمع سادة",
     "price": 1.5,
     "catetory":"electronics"
@@ -36,7 +36,7 @@
   },
   {
     "id": 5,
-    "img": "5.png",
+    "img": "5.1.jpg",
     "name": "شمع مرطبان معطر",
     "price": 2.5,
     "catetory":"electronics"
@@ -49,8 +49,8 @@
     "catetory":"mobiles"
   },
   {
-    "id": 7,
-    "img": "7.png",
+    "id": 7.1,
+    "img": "7.jpg",
     "name": "مبخرة خشبية مع بخور",
     "price": 2,
     "catetory":"electronics"
@@ -64,7 +64,7 @@
   },
   {
     "id": 9,
-    "img": "9.png",
+    "img": "9.1.jpeg",
     "name": "مبخرة زيتية",
     "price": 4,
     "catetory":"electronics"
