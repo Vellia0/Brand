@@ -8,7 +8,7 @@
   },
   {
     "id": 1,
-    "img": "1.png",
+    "img": "1.1.png",
     "name": "سنسال فضي",
     "price": 2,
     "catetory":"mobiles"
@@ -29,7 +29,7 @@
   },
   {
     "id": 4,
-    "img": "4.png",
+    "img": "4.1.png",
     "name": "قلادة فضية بتصميم عصري",
     "price": 2,
     "catetory":"mobiles"
@@ -43,7 +43,7 @@
   },
   {
     "id": 6,
-    "img": "6.png",
+    "img": "6.1.png",
     "name": "قلادة بتعليقة شريحة البطيخ",
     "price": 2,
     "catetory":"mobiles"
@@ -57,7 +57,7 @@
   },
   {
     "id": 8,
-    "img": "8.png",
+    "img": "8.1.png",
     "name": "بروشور على شكل خريطة فلسطين",
     "price": 2,
     "catetory":"mobiles"
@@ -71,42 +71,42 @@
   },
   {
     "id": 10,
-    "img": "10.png",
+    "img": "10.1.jpeg",
     "name": "تقويم مكتبي خشبي",
     "price": 3,
     "catetory":"electronics"
   },
   {
     "id": 11,
-    "img": "11.png",
+    "img": "11.1.jpeg",
     "name": "بروشور نصف بطيخة",
     "price": 2,
     "catetory":"mobiles"
   },
   {
     "id": 12,
-    "img": "12.png",
+    "img": "12.1.jpeg",
     "name": "مبخرة خشبية مع بخور",
     "price": 2,
     "catetory":"electronics"
   },
   {
     "id": 13,
-    "img": "13.png",
+    "img": "13.1.jpeg",
     "name": "ضوء قمر زجاج",
     "price": 4,
     "catetory":"appliances"
   },
   {
     "id": 14,
-    "img": "14.png",
+    "img": "14.1.jpeg",
     "name": " ضوء قمر زجاج",
     "price": 4,
     "catetory":"appliances"
   },
   {
     "id": 15,
-    "img": "15.png",
+    "img": "15.1.jpeg",
     "name": "ميدالية نصف بطيخة",
     "price": 2,
     "catetory":"mobiles"
@@ -114,7 +114,7 @@
 
   {
     "id": 17,
-    "img": "17.png",
+    "img": "17.1.jpg",
     "name": "شمع معطر كبير",
     "price": 2.5,
     "catetory":"electronics"
@@ -122,28 +122,28 @@
 
   {
     "id": 19,
-    "img": "19.png",
+    "img": "19.1.jpeg",
     "name": "عدسات هاتف خارجية",
     "price": 2,
     "catetory":"appliances"
   },
   {
     "id": 22,
-    "img": "22.png",
+    "img": "22.1.jpeg",
     "name": "عدسات هاتف خارجية ",
     "price": 2,
     "catetory":"appliances"
   },
   {
     "id": 23,
-    "img": "23.png",
+    "img": "23.1.jpeg",
     "name": "ضوء قمر شحن",
     "price": 3,
     "catetory":"appliances"
   },
   {
     "id": 24,
-    "img": "24.png",
+    "img": "24.1.jpeg",
     "name": "مبخرة زجاجية",
     "price": 2,
     "catetory":"electronics"
