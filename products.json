@@ -1,112 +1,112 @@
 [
   {
     "id": 0,
-    "img": "img/product/0.png",
+    "img": "0.png",
     "name": "تقويم خشبي معلق",
     "price": 3,
     "catetory":"electronics"
   },
   {
     "id": 1,
-    "img": "img/product/1.png",
+    "img": "1.png",
     "name": "سنسال فضي",
     "price": 2,
     "catetory":"mobiles"
   },
   {
     "id": 2,
-    "img": "img/product/2.png",
+    "img": "2.png",
     "name": "تقويم مكتبي خشبي",
     "price": 3,
     "catetory":"electronics"
   },
   {
     "id": 3,
-    "img": "img/product/3.png",
+    "img": "3.png",
     "name": "شمع سادة",
     "price": 1.5,
     "catetory":"electronics"
   },
   {
     "id": 4,
-    "img": "img/product/4.png",
+    "img": "4.png",
     "name": "قلادة فضية بتصميم عصري",
     "price": 2,
     "catetory":"mobiles"
   },
   {
     "id": 5,
-    "img": "img/product/5.png",
+    "img": "5.png",
     "name": "شمع مرطبان معطر",
     "price": 2.5,
     "catetory":"electronics"
   },
   {
     "id": 6,
-    "img": "img/product/6.png",
+    "img": "6.png",
     "name": "قلادة بتعليقة شريحة البطيخ",
     "price": 2,
     "catetory":"mobiles"
   },
   {
     "id": 7,
-    "img": "img/product/7.png",
+    "img": "7.png",
     "name": "مبخرة خشبية مع بخور",
     "price": 2,
     "catetory":"electronics"
   },
   {
     "id": 8,
-    "img": "img/product/8.png",
+    "img": "8.png",
     "name": "بروشور على شكل خريطة فلسطين",
     "price": 2,
     "catetory":"mobiles"
   },
   {
     "id": 9,
-    "img": "img/product/9.png",
+    "img": "9.png",
     "name": "مبخرة زيتية",
     "price": 4,
     "catetory":"electronics"
   },
   {
     "id": 10,
-    "img": "img/product/10.png",
+    "img": "10.png",
     "name": "تقويم مكتبي خشبي",
     "price": 3,
     "catetory":"electronics"
   },
   {
     "id": 11,
-    "img": "img/product/11.png",
+    "img": "11.png",
     "name": "بروشور نصف بطيخة",
     "price": 2,
     "catetory":"mobiles"
   },
   {
     "id": 12,
-    "img": "img/product/12.png",
+    "img": "12.png",
     "name": "مبخرة خشبية مع بخور",
     "price": 2,
     "catetory":"electronics"
   },
   {
     "id": 13,
-    "img": "img/product/13.png",
+    "img": "13.png",
     "name": "ضوء قمر زجاج",
     "price": 4,
     "catetory":"appliances"
   },
   {
     "id": 14,
-    "img": "img/product/14.png",
+    "img": "14.png",
     "name": " ضوء قمر زجاج",
     "price": 4,
     "catetory":"appliances"
   },
   {
     "id": 15,
-    "img": "img/product/15.png",
+    "img": "15.png",
     "name": "ميدالية نصف بطيخة",
     "price": 2,
     "catetory":"mobiles"
@@ -114,7 +114,7 @@
 
   {
     "id": 17,
-    "img": "img/product/17.png",
+    "img": "17.png",
     "name": "شمع معطر كبير",
     "price": 2.5,
     "catetory":"electronics"
@@ -122,28 +122,28 @@
 
   {
     "id": 19,
-    "img": "img/product/19.png",
+    "img": "19.png",
     "name": "عدسات هاتف خارجية",
     "price": 2,
     "catetory":"appliances"
   },
   {
     "id": 22,
-    "img": "img/product/22.png",
+    "img": "22.png",
     "name": "عدسات هاتف خارجية ",
     "price": 2,
     "catetory":"appliances"
   },
   {
     "id": 23,
-    "img": "img/product/23.png",
+    "img": "23.png",
     "name": "ضوء قمر شحن",
     "price": 3,
     "catetory":"appliances"
   },
   {
     "id": 24,
-    "img": "img/product/24.png",
+    "img": "24.png",
     "name": "مبخرة زجاجية",
     "price": 2,
     "catetory":"electronics"
