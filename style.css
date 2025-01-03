@@ -276,7 +276,47 @@ header .bottom_header .nav_links li:hover a,
 header .bottom_header .nav_links li.active a{
     color: var(--main_color);
 }
+/*start feature*/
 
+
+.features{
+    margin: 50px 0;
+
+}
+.features .container{
+    display: flex;
+    background-color: #fff;
+    padding: 15px 20px;
+    border-radius: 5px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.features .container .feature_item{
+    width: 18%;
+    min-width: 220px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.features .container .feature_item img{
+    width: 50px;
+
+}
+
+.features .container .feature_item h4{
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+
+.features .container .feature_item p{
+    font-size: 12px;
+
+}
+
+
+
+/*end features*/
 
 
 /* Slide */
