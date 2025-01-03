@@ -4,7 +4,9 @@
     "img": "product3.png",
     "name": "تقويم خشبي معلق",
     "price": 3,
-    "catetory":"electronics"
+    "catetory":"electronics",
+    "link": "product0.html",
+    "images": ["imges/4.1.jpg", "imges/4.2.jpg", "imges/4.3.jpg"]
   },
   {
     "id": 1,
