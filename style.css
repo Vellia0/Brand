@@ -276,6 +276,10 @@ header .bottom_header .nav_links li:hover a,
 header .bottom_header .nav_links li.active a{
     color: var(--main_color);
 }
+
+
+
+
 /*start feature*/
 
 
@@ -317,7 +321,6 @@ header .bottom_header .nav_links li.active a{
 
 
 /*end features*/
-
 
 /* Slide */
 
