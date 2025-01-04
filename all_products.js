@@ -1,57 +1,18 @@
-var filter = document.querySelector(".filter")
-
-function open_close_filter(){
-    filter.classList.toggle("active")
-}
-
-
-
 fetch('products.json')
   .then(response => response.json())
-  .then(data =>{
+  .then(products => {
+    const productsContainer = document.getElementById('products_dev');
 
-    const products_dev = document.getElementById("products_dev")
+    if (!productsContainer) return;
 
-    all_products_json = data
-
-    data.forEach(product => {
-        const old_price_pargraph = product.old_price ? `<p class="old_price">${product.old_price}</p>` : "";
-            const percent_disc_div = product.old_price ? ` <span class="sale_present">%${Math.floor((product.old_price - product.price) / product.old_price * 100)}</span> ` : "";
-            products_dev.innerHTML +=`
-            
-            <div class="product swiper-slide">
-
-          <div class="icons">
-            <span><i onclick ="addToCart(${product.id}, this)" class="fa-solid fa-cart-plus"></i></span>
-            <span><i class="fa-solid fa-heart"></i></span>
-            <span><i class="fa-solid fa-share-nodes"></i></span>
-          </div>
-
-          ${percent_disc_div}
-        
-          <div class="img_product">
-  <img src="${product.img}" alt="">
-  <img class="img_hover" src="${product.img_hover}" alt="">
-</div>
-          <h3 class="name_product"><a href="#">${product.name}</a></h3>
-          <div class="stars">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-          </div>
-          <div class="price">
-            <p><span>${product.price}JD</span></p>
-            ${old_price_pargraph}
-          </div>
-        </div>
-            
-            `
-        
-        
-    });
-
-
-
-})
+    productsContainer.innerHTML = products.map(product => `
+      <div class="product_card">
+        <img src="${product.img}" alt="${product.name}" class="product_image">
+        <h3 class="product_name">${product.name}</h3>
+        <p class="product_price">السعر: ${product.price} د.أ</p>
+        <p class="product_category">الفئة: ${product.catetory}</p>
+        ${product.link ? `<a href="${product.link}" class="product_link">عرض المنتج</a>` : ""}
+      </div>
+    `).join('');
+  })
+  .catch(error => console.error('Error loading products:', error));
