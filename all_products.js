@@ -6,7 +6,7 @@ function open_close_filter(){
 
 
 
-fetch('items.json')
+fetch('products.json')
   .then(response => response.json())
   .then(data =>{
 
